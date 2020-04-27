@@ -113,6 +113,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DBApplicationFail.aspx" />
+    <Content Include="DBApplicationSuccessful.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DiaoBoApplication.aspx" />
     <Content Include="DiaoBoManage.aspx" />
@@ -188,6 +190,20 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBApplicationFail.aspx.cs">
+      <DependentUpon>DBApplicationFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBApplicationFail.aspx.designer.cs">
+      <DependentUpon>DBApplicationFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBApplicationSuccessful.aspx.cs">
+      <DependentUpon>DBApplicationSuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBApplicationSuccessful.aspx.designer.cs">
+      <DependentUpon>DBApplicationSuccessful.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
