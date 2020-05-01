@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DBApplicationFail.aspx.cs" Inherits="AssetsManagement.DBApplicationFail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BFApplicationFail.aspx.cs" Inherits="AssetsManagement.BFApplicationFail" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>调拨申请</title>
+    <title>报废申请</title>
 </head>
 <body style="background-color: #eee;">
     <div style="text-align:center;">

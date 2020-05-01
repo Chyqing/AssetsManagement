@@ -7,26 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace AssetsManagement
 {
-    public partial class UserPage : System.Web.UI.Page
+    public partial class BFApplicationSuccessful : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void DBApplication_Click(object sender, EventArgs e)
-        {
-            Server.Transfer("DiaoBoApplication.aspx");
-        }
-
         protected void BFApplication_Click(object sender, EventArgs e)
         {
             Server.Transfer("BaoFeiApplication.aspx");
-        }
-
-        protected void Information_Click(object sender, EventArgs e)
-        {
-            Server.Transfer("Information.aspx");
         }
     }
 }

@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DBApplicationFail.aspx.cs" Inherits="AssetsManagement.DBApplicationFail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BXApplicationFail.aspx.cs" Inherits="AssetsManagement.BFApplicationFail" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>调拨申请</title>
+    <title>入账报销</title>
 </head>
 <body style="background-color: #eee;">
     <div style="text-align:center;">
@@ -22,7 +22,7 @@
                     <div style="float:right;margin-right:25px;width:100px">
                         <asp:Button ID="Back" runat="server" Text="返回首页" BorderStyle="None" Font-Bold="True" Font-Size="18px" BackColor="#337AB7" BorderColor="#2A6DA4" ForeColor="White"/>
                     </div>   
-                </div>  
+                </div>   
                 
             </div>
         </form>

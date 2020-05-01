@@ -106,7 +106,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddAssets.aspx" />
+    <Content Include="AddAssetsFail.aspx" />
+    <Content Include="AddAssetsSuccessful.aspx" />
     <Content Include="BaoFeiApplication.aspx" />
+    <Content Include="BaoFeiManage.aspx" />
+    <Content Include="BaoXiaoApplication.aspx" />
+    <Content Include="BXApplicationFail.aspx" />
+    <Content Include="BFApplicationFail.aspx" />
+    <Content Include="BXApplicationSuccessful.aspx" />
+    <Content Include="BFApplicationSuccessful.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -130,6 +139,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="InformationManage.aspx" />
+    <Content Include="Information.aspx" />
     <Content Include="ManagerPage.aspx" />
     <Content Include="Signin.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -168,6 +179,27 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAssets.aspx.cs">
+      <DependentUpon>AddAssets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAssets.aspx.designer.cs">
+      <DependentUpon>AddAssets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAssetsFail.aspx.cs">
+      <DependentUpon>AddAssetsFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAssetsFail.aspx.designer.cs">
+      <DependentUpon>AddAssetsFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddAssetsSuccessful.aspx.cs">
+      <DependentUpon>AddAssetsSuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddAssetsSuccessful.aspx.designer.cs">
+      <DependentUpon>AddAssetsSuccessful.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -183,6 +215,48 @@
     </Compile>
     <Compile Include="BaoFeiApplication.aspx.designer.cs">
       <DependentUpon>BaoFeiApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaoFeiManage.aspx.cs">
+      <DependentUpon>BaoFeiManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaoFeiManage.aspx.designer.cs">
+      <DependentUpon>BaoFeiManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaoXiaoApplication.aspx.cs">
+      <DependentUpon>BaoXiaoApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BaoXiaoApplication.aspx.designer.cs">
+      <DependentUpon>BaoXiaoApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BXApplicationFail.aspx.cs">
+      <DependentUpon>BXApplicationFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BXApplicationFail.aspx.designer.cs">
+      <DependentUpon>BXApplicationFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BFApplicationFail.aspx.cs">
+      <DependentUpon>BFApplicationFail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BFApplicationFail.aspx.designer.cs">
+      <DependentUpon>BFApplicationFail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BXApplicationSuccessful.aspx.cs">
+      <DependentUpon>BXApplicationSuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BXApplicationSuccessful.aspx.designer.cs">
+      <DependentUpon>BXApplicationSuccessful.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BFApplicationSuccessful.aspx.cs">
+      <DependentUpon>BFApplicationSuccessful.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BFApplicationSuccessful.aspx.designer.cs">
+      <DependentUpon>BFApplicationSuccessful.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -228,6 +302,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InformationManage.aspx.cs">
+      <DependentUpon>InformationManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InformationManage.aspx.designer.cs">
+      <DependentUpon>InformationManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information.aspx.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information.aspx.designer.cs">
+      <DependentUpon>Information.aspx</DependentUpon>
     </Compile>
     <Compile Include="ManagerPage.aspx.cs">
       <DependentUpon>ManagerPage.aspx</DependentUpon>

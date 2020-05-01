@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DiaoBoManage.aspx.cs" Inherits="AssetsManagement.DiaoBoManage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BaoFeiManage.aspx.cs" Inherits="AssetsManagement.BaoFeiManage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>调拨处理</title>
+    <title>报废处理</title>
 </head>
 <body style="background-color: #eee;">
     <div style="text-align:center;">
@@ -14,7 +14,7 @@
                 <div style="margin:0px;width:100px;">
                     <asp:Button ID="Back" runat="server" Text="返回首页" BackColor="#337AB7" ForeColor="White" Width="100px" BorderColor="#2A6DA4" Height="25px" BorderWidth="1px"/>
                 </div>
-                <h3>调拨申请表</h3>
+                <h3>报废申请表</h3>
                 <div style="margin-bottom:10px">
                     <asp:Label ID="Label1" runat="server" BorderStyle="None" Font-Size="16px" Text="申请人" Width="76px"></asp:Label>
                     <asp:TextBox ID="TextBox1" runat="server" ReadOnly="True" style="height:16px; width: 200px;" BorderStyle="Solid"></asp:TextBox>
@@ -40,7 +40,7 @@
                     <asp:TextBox ID="TextBox6" runat="server" ReadOnly="True" style="height:16px; width: 200px;" BorderStyle="Solid"></asp:TextBox>
                 </div>
                 <div style="margin-bottom:10px">
-                    <asp:Label ID="Label7" runat="server" BorderStyle="None" Font-Size="16px" Text="调拨原因" Width="76px" style="margin-top: 0px"></asp:Label>
+                    <asp:Label ID="Label7" runat="server" BorderStyle="None" Font-Size="16px" Text="报修原因" Width="76px" style="margin-top: 0px"></asp:Label>
                     <br />
                     <asp:TextBox ID="TextBox7" runat="server" ReadOnly="True" style="height:98px; width: 277px;" TextMode="MultiLine" BorderStyle="Solid"></asp:TextBox>
                 </div>

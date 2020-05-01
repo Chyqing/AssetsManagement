@@ -1,3 +1,4 @@
+D:\GitHub\AssetsManagement\obj\Debug\AssetsManagement.csprojAssemblyReference.cache
 D:\GitHub\AssetsManagement\bin\AssetsManagement.dll.config
 D:\GitHub\AssetsManagement\bin\AssetsManagement.dll
 D:\GitHub\AssetsManagement\bin\AssetsManagement.pdb
@@ -66,7 +67,6 @@ D:\GitHub\AssetsManagement\bin\Microsoft.AspNet.FriendlyUrls.xml
 D:\GitHub\AssetsManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\GitHub\AssetsManagement\bin\zh-Hans\System.Web.Optimization.resources.dll
 D:\GitHub\AssetsManagement\bin\zh-Hans\Microsoft.AspNet.FriendlyUrls.resources.dll
-D:\GitHub\AssetsManagement\obj\Debug\AssetsManagement.csprojAssemblyReference.cache
 D:\GitHub\AssetsManagement\obj\Debug\AssetsManagement.csproj.CopyComplete
 D:\GitHub\AssetsManagement\obj\Debug\AssetsManagement.dll
 D:\GitHub\AssetsManagement\obj\Debug\AssetsManagement.pdb

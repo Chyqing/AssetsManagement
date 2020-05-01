@@ -11,7 +11,7 @@ namespace AssetsManagement
 {
 
 
-    public partial class UserPage
+    public partial class AddAssetsSuccessful
     {
 
         /// <summary>
@@ -24,30 +24,21 @@ namespace AssetsManagement
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Information 控件。
+        /// Reapply 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Information;
+        protected global::System.Web.UI.WebControls.Button Reapply;
 
         /// <summary>
-        /// DBApplication 控件。
+        /// Back 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button DBApplication;
-
-        /// <summary>
-        /// BFApplication 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BFApplication;
+        protected global::System.Web.UI.WebControls.Button Back;
     }
 }

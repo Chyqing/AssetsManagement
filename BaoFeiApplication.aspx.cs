@@ -13,5 +13,10 @@ namespace AssetsManagement
         {
 
         }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("BFApplicationSuccessful.aspx");
+        }
     }
 }

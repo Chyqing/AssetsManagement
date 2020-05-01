@@ -11,7 +11,7 @@ namespace AssetsManagement
 {
 
 
-    public partial class DiaoBoManage
+    public partial class BaoFeiManage
     {
 
         /// <summary>
